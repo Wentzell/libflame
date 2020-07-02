@@ -234,7 +234,7 @@ int cgesvd_(char *jobu, char *jobvt, integer *m, integer *n, complex *a, integer
 {
     /* System generated locals */
     integer a_dim1, a_offset, u_dim1, u_offset, vt_dim1, vt_offset, i__2, i__3, i__4;
-    char ch__1[2];
+    char ch__1[2] = {'\0','\0'};
     /* Builtin functions */
     /* Subroutine */
 

@@ -304,7 +304,7 @@ int zhseqr_(char *job, char *compz, integer *n, integer *ilo, integer *ihi, doub
     integer h_dim1, h_offset, z_dim1, z_offset, i__1, i__2;
     doublereal d__1, d__2, d__3;
     doublecomplex z__1;
-    char ch__1[2];
+    char ch__1[2] = {'\0','\0'};
     /* Builtin functions */
     /* Subroutine */
 

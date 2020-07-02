@@ -7,7 +7,7 @@ int zunmtr_check(char *side, char *uplo, char *trans, int *m, int *n, dcomplex *
 {
     /* System generated locals */
     int a_dim1, a_offset, c_dim1, c_offset, i__2, i__3;
-    char ch__1[2];
+    char ch__1[2] = {'\0','\0'};
     /* Local variables */
     int nb, nq, nw;
     logical left;
