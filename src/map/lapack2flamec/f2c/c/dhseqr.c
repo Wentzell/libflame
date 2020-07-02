@@ -312,7 +312,7 @@ int dhseqr_(char *job, char *compz, integer *n, integer *ilo, integer *ihi, doub
     /* System generated locals */
     integer h_dim1, h_offset, z_dim1, z_offset, i__1, i__3;
     doublereal d__1;
-    char ch__1[2];
+    char ch__1[2] = {'\0','\0'};
     /* Builtin functions */
     /* Subroutine */
 

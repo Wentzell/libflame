@@ -170,7 +170,7 @@ int sormql_(char *side, char *trans, integer *m, integer *n, integer *k, real *a
 {
     /* System generated locals */
     integer a_dim1, a_offset, c_dim1, c_offset, i__1, i__2, i__4, i__5;
-    char ch__1[2];
+    char ch__1[2] = {'\0','\0'};
     /* Builtin functions */
     /* Subroutine */
 

@@ -7,7 +7,7 @@ int sormlq_check(char *side, char *trans, int *m, int *n, int *k, float *a, int 
 {
     /* System generated locals */
     int a_dim1, a_offset, c_dim1, c_offset, i__1, i__2;
-    char ch__1[2];
+    char ch__1[2] = {'\0','\0'};
 
     /* Local variables */
     int nb, nq, nw;

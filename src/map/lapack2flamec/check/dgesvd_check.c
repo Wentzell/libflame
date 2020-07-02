@@ -8,7 +8,7 @@ int dgesvd_check(char *jobu, char *jobvt, int *m, int *n, double *a, int *lda, d
 {
     /* System generated locals */
     int a_dim1, a_offset, u_dim1, u_offset, vt_dim1, vt_offset, i__2, i__3;
-    char ch__1[2];
+    char ch__1[2] = {'\0','\0'};
     /* Local variables */
     double dum[1];
     int ierr, lwork_dgebrd__, lwork_dgelqf__, lwork_dgeqrf__;
