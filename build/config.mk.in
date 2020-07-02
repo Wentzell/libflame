@@ -139,10 +139,8 @@ endif
 # *** Notice that wo do not also modify the 'no optimization' set of flags.
 #     We do this to avoid potential numerical disruption of routines such
 #     as slamch/dlamch.
-ifneq (@fla_userdef_cflags@,)
 CFLAGS             := @CFLAGS@ -fPIC $(CFLAGS)
 CFLAGS_NOOPT       := @CFLAGS@ -fPIC $(CFLAGS_NOOPT)
-endif
 
 
 # --- Determine the C preprocessor ---
