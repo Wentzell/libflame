@@ -140,7 +140,8 @@ endif
 #     We do this to avoid potential numerical disruption of routines such
 #     as slamch/dlamch.
 ifneq (@fla_userdef_cflags@,)
-CFLAGS       := @CFLAGS@ $(CFLAGS)
+CFLAGS             := @CFLAGS@ -fPIC $(CFLAGS)
+CFLAGS_NOOPT       := @CFLAGS@ -fPIC $(CFLAGS_NOOPT)
 endif
 
 
